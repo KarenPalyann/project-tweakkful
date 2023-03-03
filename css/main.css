@@ -1,0 +1,40 @@
+@import url("../fonts/Char/stylesheet.css");
+@import url("../fonts/Inter/stylesheet.css");
+@import url("../fonts/Roboto/stylesheet.css");
+
+:root {
+    --darkblack: #191919;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+    --gray: #DEDEDE;
+    --blue: #2E4FD7;
+    --base: #e7ebfc;
+    --baseDark: #052825;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn1 {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 15px 20px;
+    text-transform: capitalize;
+    font-family: 'Inter';
+}
+
+.main header {
+    background-color: var(--white);
+}
